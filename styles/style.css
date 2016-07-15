@@ -1,0 +1,251 @@
+/* Navbar */
+.navbar {
+    background-color: #121111;
+    font-family: "Tahoma", sans-serif;
+    min-height: 56px;
+    height: auto;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	top: 0;
+    padding-left: 39px;
+    transition: 1.0s;
+}
+
+.navbar span {
+    display: inline-block;
+    padding: 20px 13px;
+}
+
+.navbar a {
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    color: #fff;
+}
+
+.efeito {
+    transition: 1.0s;
+    background-color: #1840ad;
+}
+/* Fecha Navbar */
+
+/* Header */
+.header {
+    background-image: url(../img/background-logo.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    z-index: -99999;
+}
+
+#social {
+    margin-top: 35%;
+    left: 35%;
+    right: 35%;
+    position: absolute;
+    width: 320px;
+    height: 60px;
+}
+
+#social img {
+    padding-left: 30px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+}
+/* Fecha Header */
+
+/* Header Sobre */
+.sobre {
+    background-color: #121111;
+    min-height: 100vh;
+    height: auto;
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.72);
+}
+
+.sobre p {
+    cursor:default;
+    padding-top: 30px;
+    font-family: "Tahoma", sans-serif;
+    font-size: 30px;
+    color: #fff;
+}
+
+.sobre h1{
+    cursor:default;
+    padding-top: 200px;
+    font-family: "Tahoma", sans-serif;
+    font-size: 30px;
+    color: #fff;
+}
+
+/* Fecha Sobre Nós */
+
+/* Header Serviços */
+.servicos {
+    background-image: url(../img/background-servicos.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.72);
+}
+
+.servicos p {
+    cursor:default;
+    padding-top: 20px;
+    font-family: "Tahoma", sans-serif;
+    font-size: 30px;
+    color: #fff;
+}
+
+.servicos h1{
+    cursor:default;
+    padding-top: 100px;
+    font-family: "Tahoma", sans-serif;
+    font-size: 30px;
+    color: #fff;
+}
+
+/* Fecha Serviços */
+
+/* Header Fale Conosco */
+.faleconosco {
+    background-color: #121111;
+    height: 100vh;
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.72);
+}
+
+.faleconosco p {
+    cursor:default;
+    padding-top: 60px;
+    font-family: "Tahoma", sans-serif;
+    font-size: 30px;
+    color: #fff;
+}
+
+.faleconosco h1{
+    cursor:default;
+    padding-top: 150px;
+    font-family: "Tahoma", sans-serif;
+    font-size: 30px;
+    color: #fff;
+}
+
+.box-cont {
+    padding-bottom: 20px;
+}
+
+.faleconosco form {
+    padding-top: -130px;
+}
+
+input, select { 
+    width: 200px; 
+    padding: 10px; 
+    color: black;
+    border: 0px;
+    border-radius: 2px;
+    outline-color: #1840ad;
+    transition: 0.3s;
+}
+
+select {
+    width: 220px;
+}
+
+.faleconosco button {
+    background-color: #1840ad;
+    width: 220px; 
+    height: 40px;
+    font-size: 15px;
+    padding: 10px; 
+    color: white;
+    font-family: "Tahoma", sans-serif;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
+
+textarea {
+    font-family: "Tahoma", sans-serif;
+    width: 860px; 
+    height: 120px;
+    resize: none;
+    overflow: auto;
+    outline-color: #1840ad;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+/* Fecha Fale Conosco */
+
+/* Footer */    
+#footer {
+    width: auto;
+    height: 10vh;
+    background-image: url(../img/background-footer.png);
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+}
+
+footer .columns .logo {
+    background-image: url(../img/logo-footer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    margin-top: 15px;
+    width: 48px;
+    height: 40px;
+}
+
+footer .columns .type {
+    background: url(../img/type.png) no-repeat center center;
+    display: inline-block;
+    padding-bottom: 20px;
+    height: 24px;
+    opacity: 0;
+    -webkit-transition: all 250ms;
+    transition: all 250ms;
+    width: 0px;
+}
+
+footer .columns .logo:hover + .type {
+    opacity: 1;
+    width: 120px;
+}
+/* Fecha Footer */
+
+/* Sombras */
+.shadow-z-1 {
+    box-shadow: 0 1px 3px rgba(0,0,0, .12),
+        0 1px 2px rgba(0,0,0, .24) ;
+}
+
+.shadow-z-2 {
+    box-shadow: 0 3px 6px rgba(0,0,0, .16),
+        0 3px 6px rgba(0,0,0, .23) ;
+}
+.shadow-z-2-hover, .headerFale button:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0, .20),
+        0 3px 6px rgba(0,0,0, .28) ;
+}
+
+.shadow-z-3 {
+    box-shadow: 0 10px 20px rgba(0,0,0, .19),
+        0 6px 6px rgba(0,0,0, .23) ;
+}
+
+.shadow-z-4, textarea:focus, input:focus {
+    box-shadow: 0 14px 28px rgba(0,0,0, .25),
+        0 10px 10px rgba(0,0,0, .22) ;
+}
+
+.shadow-z-5 {
+    box-shadow: 0 19px 38px rgba(0,0,0, .30),
+        0 15px 12px rgba(0,0,0, .22) ;
+}
+/* Fecha Sombras */
