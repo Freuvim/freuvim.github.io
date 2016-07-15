@@ -1,115 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="img/icone.ico">
-    <title>3D Solutions</title>
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/skeleton.css">
-    <link rel="stylesheet" href="styles/style.css">
-    <!-- Âncora com scroll suave e fade -->
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery-scroll.js"></script>
-    <!-- Fecha âncora com scroll suave e fade -->
-    <!-- Stellar -->
-    <script type="text/javascript" src="js/stellar.js"></script>
-    <script type="text/javascript">
-		$(function(){
-			$.stellar({
-				horizontalScrolling: false,
-				verticalOffset: 40
-			});
-		});
-    </script>
-    <!-- Fecha Stellar -->
-</head>
-<body onselectstart="return false" ondragstart="return false">
-    <div id="navbar" class="navbar shadow-z-1">
-    <div class="container">
-            <div class="seven columns offset-by-four">
-                <a href="#inicio" class="scroll"><span>Inicio</span></a>
-                <a href="#sobre" class="scroll"><span>Sobre Nós</span></a>
-                <a href="#servicos" class="scroll"><span>Serviços</span></a>
-                <a href="#faleconosco" class="scroll"><span>Fale Conosco</span></a>
-           </div>
-        </div>
-    </div>
-    <div id="inicio" class="header" data-stellar-background-ratio="0.5">
-        <div id="social" class="container">
-            <div class="columns offset-by-tree">
-                <img class="fade" src="img/facebook.png">
-                <img class="fade" src="img/instagram.png">
-                <img class="fade" src="img/twitter.png">
-            </div>
-        </div>
-    </div>
-    <div id="sobre" class="sobre">
-        <div class="container">
-            <h1>Sobre Nós</h1>
-            <p>
-                Missão: Nossa missão é ser a melhor em nosso ramo de negócio, atender as necessidades de nossos clientes com
-                qualidade e rapidez.
-                <br><br>
-                Visão: Ser sinônimo de referência em serviços de impressão 3D.
-                <br><br>
-                Valores: Ética, Respeito, Qualidade e Trabalho em equipe. 
-           </p>   
-       </div>
-    </div>
-    <div id="servicos" class="servicos" data-stellar-background-ratio="0.5">
-       <div class="container">
-           <h1>Serviços:</h1>
-            <p>
-               <br>
-                A 3D Solutions é uma empresa que trabalha soluções em impressões 3D de peças de reposição em máquinas.
-                <br><br>
-                Com materiais de qualidade e baixíssimo custo, trazemos aos clientes peças de alta qualidade e de preço acessível.
-                <br><br>
-                 Nossa equipe irá modelar ou utilizar uma modelagem 3D sua e analizará o melhor material para a produção. Assim daremos nosso feedback sobre o material escolhido se é ou não viável trazendo segurança para nossos clientes.
-            </p>
-       </div>
-    </div>
-    <div id="faleconosco" class="faleconosco">
-        <div class="container">
-            <h1>Fale Conosco:</h1>
-            <div class="box-cont">
-                    <p>Para orçamentos, dúvidas e etc preencha esse formulário.
-                    <br>Responderemos todos o mais rápido possível.</p>
-            </div>
-            <!--    Formulário    -->
-            <form>
-                <input name="nome" class="shadow-z-1" type="text" placeholder="Nome completo" required>
-                <input name="email" class="shadow-z-1" type="email" placeholder="exemplo@email.com" required/>
-                <br><br>
-                <input name="telefone" class="shadow-z-1" type="tel" placeholder="(000) 0000-0000" />
-                   <select class="shadow-z-1" name="Assunto" required>
-                    <option value="Orçamento">Orçamento</option>
-                    <option value="Sujestão">Dúvida</option>
-                    <option value="Reclamação">Reclamação</option>
-                    <option value="RH">R.H.</option>
-                </select>
-                <br><br>
-                <textarea name="mensagem" class="shadow-z-1" placeholder="Escreva a sua mensagem aqui" required></textarea> 
-                <br><br>
-                <button class="shadow-z-1" style="cursor:pointer;" onclick="buttonSubmit();" type="button" value="Enviar">Enviar</button>
-            </form>
-            <!--    Fecha Formulário    -->
-        </div>
-    </div>
-    <footer>
-        <div id="footer" data-stellar-background-ratio="0.5">
-            <div class="container">
-                <div class="columns offset-by-eight">
-                    <div id="logo" class="logo"></div>
-                    <div id="type" class="type"></div>  
-                </div>
-            </div>
-       </div>
-    </footer>
-    <script>
-        function buttonSubmit() {
-            alert("Mensagem enviada com sucesso!");
-        }
-    </script>
-</body>
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Aerial by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body class="loading">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Kélvin Tesche Ievenes</h1>
+						<nav>
+							<ul>
+								<li><a href="https://www.facebook.com/Freuvim" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="https://github.com/Freuvim" class="icon fa-github"><span class="label">Github</span></a></li>
+								<li><a href="mailto:kelvin.ievenes@fatec.sp.gov.br" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+					</footer>
+
+			</div>
+		</div>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
 </html>
